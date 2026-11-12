@@ -1,0 +1,8 @@
+{
+  "name": "harmonylens",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
