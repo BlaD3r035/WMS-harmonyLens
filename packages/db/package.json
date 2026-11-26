@@ -1,0 +1,6 @@
+{
+  "name": "@harmonylens/db",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PostgreSQL schema for the HarmonyLens inventory system"
+}

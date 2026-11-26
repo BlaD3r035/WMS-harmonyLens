@@ -4,5 +4,12 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "db:up": "docker compose up -d db",
+    "db:reset": "docker compose down -v && docker compose up -d db",
+    "dev:api": "pnpm --filter api start:dev",
+    "dev:client": "pnpm --filter client dev",
+    "test": "pnpm --filter api test && pnpm --filter api test:e2e"
+  }
 }
